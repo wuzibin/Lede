@@ -11,4 +11,16 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
+
+#Add luci-app-dogcom
+git clone https://github.com/mchome/openwrt-dogcom package/feeds/packages/dogcom
+git clone https://github.com/mchome/luci-app-dogcom package/feeds/luci/luci-app-dogcom
+
+#Add luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr package/lean/luci-app-vssr
+
+#Add luci-app-scutclient
+git clone https://github.com/wuzibin/scutclient package/feeds/packages/scutclient
+git clone https://github.com/wuzibin/luci-app-scutclient package/feeds/luci/luci-app-scutclient
