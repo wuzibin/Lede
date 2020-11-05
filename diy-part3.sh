@@ -24,3 +24,12 @@ git clone https://github.com/jerrykuku/luci-app-vssr package/lean/luci-app-vssr
 #Add luci-app-scutclient
 git clone https://github.com/wuzibin/scutclient package/feeds/packages/scutclient
 git clone https://github.com/wuzibin/luci-app-scutclient package/feeds/luci/luci-app-scutclient
+
+#Add luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/feeds/luci/luci-app-adguardhome
+
+#Add luci-app-jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/feeds/luci/luci-app-jd-dailybonus
+
+#Add luci-app-serverchan
+git clone https://github.com/tty228/luci-app-serverchan.git package/feeds/luci/luci-app-serverchan
