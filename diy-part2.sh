@@ -11,8 +11,8 @@
 #
 
 # Remove conflict
-rm -rf feeds/lienol/lienol/ipt2socks
-rm -rf feeds/lienol/lienol/shadowsocksr-libev
-rm -rf feeds/lienol/lienol/pdnsd-alt
-rm -rf feeds/lienol/package/verysync
-rm -rf feeds/lienol/lienol/luci-app-verysync
+# rm -rf feeds/lienol/lienol/ipt2socks
+# rm -rf feeds/lienol/lienol/shadowsocksr-libev
+# rm -rf feeds/lienol/lienol/pdnsd-alt
+# rm -rf feeds/lienol/package/verysync
+# rm -rf feeds/lienol/lienol/luci-app-verysync
